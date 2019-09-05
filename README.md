@@ -1,5 +1,5 @@
 # wcz_telegram
-A really simple and raw plugin for automatic posting new articles to telegram. All the parameters are yet inside the code.
+A really simple and raw plugin for automatic posting new articles to [**Telegram**](https://telegram.org/). All the parameters are yet inside the code.
 
 * **wcz_telegram_token**: the token of your Telegram bot. Talk to the [**BotFather**](https://core.telegram.org/bots#6-botfather).
 * **wcz_telegram_chatid**: the chatid of your Telegram channel. You'll find some hints [**here**](https://stackoverflow.com/questions/45414021/get-telegram-channel-group-id).
