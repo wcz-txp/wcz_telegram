@@ -1,5 +1,9 @@
 <?php
 
+/*
+Partly inspired by Andy Carter's arc_twitter
+http://andy-carter.com/txp/arc_twitter
+*/
 
 if (txpinterface == 'admin')
 {
