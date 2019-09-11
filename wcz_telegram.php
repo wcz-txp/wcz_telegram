@@ -38,9 +38,10 @@ function wcz_telegram() {
 
     $article_id = empty($GLOBALS['ID']) ? gps('ID') : $GLOBALS['ID'];
     $Status = empty($GLOBALS['Status']) ? gps('Status') : $GLOBALS['Status'];
+    $view = empty($GLOBALS['view']) ? gps('view') : $GLOBALS['view'];
     $wcz_telegram__this = empty($GLOBALS['wcz_telegram__this']) ? gps('wcz_telegram__this') : $GLOBALS['wcz_telegram__this'];
 
-    if ($Status == 4 and $wcz_telegram__this == 1)
+    if ($Status == 4 and $wcz_telegram__this == 1 and $view != "html" and $view != "preview")
     {
 
 
